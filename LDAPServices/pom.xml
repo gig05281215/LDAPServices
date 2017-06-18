@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.triumph.projects</groupId>
+  <artifactId>LDAPServices</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>LDAPServices</name>
+  <description>publish ldap services</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.directory.api</groupId>
+  		<artifactId>api-all</artifactId>
+  		<version>1.0.0-RC2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.directory.server</groupId>
+  		<artifactId>apacheds-jdbm-partition</artifactId>
+  		<version>2.0.0-M23</version>
+  	</dependency>
+  	 <dependency>  
+               <groupId>junit</groupId>  
+               <artifactId>junit</artifactId>  
+               <version>4.10</version>  
+               <scope>test</scope>  
+     </dependency>  
+  </dependencies>
+</project>
